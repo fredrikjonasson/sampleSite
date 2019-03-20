@@ -35,7 +35,10 @@ try {
 $sql = $myPDO->prepare("SELECT id, joke FROM jokes");
 $sql->execute();
 
-$result = $sql->fetchAll();
+
+//Vilken är vettig att ha till höger om ->
+$result = $sql->fetchAll(PDO::FETCH_COLUMN, 1);
+
 print_r($result);
 
 
