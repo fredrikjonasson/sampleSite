@@ -1,0 +1,25 @@
+body {
+	background-color:yellow;
+}
+
+h1 {
+	text-align:center;
+}
+
+#button{
+	text-align:center;
+}
+
+div#contentContainer{
+	text-align:center;
+
+}
+
+div#laughHolder{
+	box-sizing: content-box;
+	display:inline-block;
+	width:25%;
+	margin-top:5%;
+	background-color:turquoise;
+	border-radius: 15px;
+}
