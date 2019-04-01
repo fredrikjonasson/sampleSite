@@ -19,7 +19,9 @@ div#laughHolder{
 	box-sizing: content-box;
 	display:inline-block;
 	width:25%;
+	min-height:25%;
 	margin-top:5%;
+	padding:2%;
 	background-color:turquoise;
 	border-radius: 15px;
 }
