@@ -1,9 +1,9 @@
 <?php
 // Login information to the server.
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "jokes";
+$servername = "vitsar.nu.mysql";
+$username = "vitsar_nu";
+$password = "HQTZaPaivfTx79sx353dYJbM";
+$dbname = "vitsar_nu";
 
 try {
 	// Creation of PDO-object and setting of attribute.
